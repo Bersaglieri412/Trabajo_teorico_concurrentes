@@ -1,0 +1,115 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPE_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U main%b		main.adb		1c1228ed NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W pkg_canival%s		pkg_canival.adb		pkg_canival.ali
+W pkg_cocinero%s	pkg_cocinero.adb	pkg_cocinero.ali
+W pkg_raciones%s	pkg_raciones.adb	pkg_raciones.ali
+W pkg_sem%s		pkg_sem.adb		pkg_sem.ali
+Z system%s		system.ads		system.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-taside.ads		20210601075304 c3e0cda8 ada.task_identification%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D main.adb		20220509122804 612b6e29 main%b
+D pkg_canival.ads	20220509122439 fbf707ae pkg_canival%s
+D pkg_cocinero.ads	20220509114005 c8b47a62 pkg_cocinero%s
+D pkg_raciones.ads	20220509122149 0abcf1bd pkg_raciones%s
+D pkg_sem.ads		20220509120451 ccdb79ef pkg_sem%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finmas.ads		20210601075304 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220309175724 0b994636 system.os_constants%s
+D s-osinte.ads		20220309175724 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-pooglo.ads		20210601075304 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210601075304 b16154c2 system.storage_pools%s
+D s-stposu.ads		20210601075304 97a6219c system.storage_pools.subpools%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-taprob.ads		20210601075304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210601075304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20210601075304 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|2r6 2r23
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|2w10 2r27
+X 14 main.adb
+7U11*Main 7b11 27l5 27t9
+9p4 Semaforo{18|4P9} 17m4 22r28 23r28 24r28 25r28
+10p4 olla_vacia{18|4P9} 18m4 20r31 21r28 22r38 23r38 24r38 25r38
+11p4 olla_llena{18|4P9} 19m4 20r42 21r40 22r50 23r50 24r50 25r50
+12p4 T{15|8P9} 22m4 23m4 24m4 25m4
+13p4 C{16|8P9} 21m4
+14p4 raciones{17|7P9} 20m4 21r52 22r62 23r62 24r62 25r62
+X 15 pkg_canival.ads
+6K9*pkg_canival 14|3w6 3r23 15|9e16
+7T14*Tarea_Suceso_Ca 14|22r12 23r12 24r12 25r12
+8P9*Tarea_Canival(7T14) 14|12r7
+X 16 pkg_cocinero.ads
+6K9*Pkg_cocinero 14|4w6 4r24 16|9e17
+7T14*Tarea_Suceso_Co 14|21r12
+8P9*Tarea_Cocinero(7T14) 14|13r7
+X 17 pkg_raciones.ads
+4K9*pkg_raciones 14|5w6 5r24 17|19e17
+6W9*numRaciones 14|20r19
+7P9*accesoNumRaciones(6W9) 14|14r14
+X 18 pkg_sem.ads
+2K9*Pkg_Sem 14|1w6 1r19 18|11e12
+3W9*Sem_T 14|17r20 18r22 19r22
+4P9*P_Sem(3W9) 14|9r15 10r17 11r17
+X 35 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

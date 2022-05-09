@@ -1,0 +1,109 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U pkg_sem%b		pkg_sem.adb		d90c4d69 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U pkg_sem%s		pkg_sem.ads		89ae6cd5 EE NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-charac.ads		20210601075304 2d3ec45b ada.characters%s
+D a-chahan.ads		20210601075304 1601a50f ada.characters.handling%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D pkg_sem.ads		20190508232312 89ae6cd5 pkg_sem%s
+D pkg_sem.adb		20220503193526 cebe37e9 pkg_sem%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210601075304 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220309175724 0b994636 system.os_constants%s
+D s-osinte.ads		20220309175724 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-taprob.ads		20210601075304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210601075304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210601075304 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|2r6 2r23 3r6
+X 2 a-charac.ads
+16K13*Characters 18e19 15|3r10
+X 3 a-chahan.ads
+36K24*Handling 159e28 15|3w21
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|2w10 2r27
+263U14*Put_Line 15|14s33 25s33
+X 14 pkg_sem.ads
+1K9*pkg_sem 6E19 12l5 12e12 15|4b14 53l5 53t12
+2W9*sem_t 3r34 4r32 6d25 10E7 11l8 11e13 15|7b19 30l8 30t13 34r36 44r38
+3U14*signal 3=21 15|44b19 50l13 50t19
+3w21 sem{2W9} 15|44b26 48r25
+4U14*wait 4=19 15|34b19 40l21 40t25
+4w19 sem{2W9} 15|34b24 38r26
+6i25 valor_inicial{integer} 10r30
+7Y13 wait 15|19b16 28l13 28t17 38s30
+8U17 signal 15|9b19 17l14 17t20 48s29
+10i7 valor_sem{integer} 15|12r25 12r38 13r28 14r107 19r26 23r25 23r38 24r29
+. 25r107
+X 15 pkg_sem.adb
+5i1 Valor_Sem{integer}
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

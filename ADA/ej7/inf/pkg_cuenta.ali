@@ -1,0 +1,149 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=3
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U pkg_cuenta%b		pkg_cuenta.adb		414cc28d NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.concat_7%s	s-conca7.adb		s-conca7.ali
+Z system.concat_9%s	s-conca9.adb		s-conca9.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U pkg_cuenta%s		pkg_cuenta.ads		1222c1a1 EE OO PF PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D pkg_cuenta.ads	20220507160628 1222c1a1 pkg_cuenta%s
+D pkg_cuenta.adb	20220507160654 db73b076 pkg_cuenta%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210601075304 0b705ca5 system.concat_3%s
+D s-conca5.ads		20210601075304 875e432e system.concat_5%s
+D s-conca7.ads		20210601075304 fcc75b1f system.concat_7%s
+D s-conca9.ads		20210601075304 dc4a3424 system.concat_9%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finmas.ads		20210601075304 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-memory.ads		20210601075304 597d6634 system.memory%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20220309175724 0b994636 system.os_constants%s
+D s-osinte.ads		20220309175724 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-pooglo.ads		20210601075304 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stalib.adb		20210601075304 f2fe2716 system.standard_library%b
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210601075304 b16154c2 system.storage_pools%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-taprob.ads		20210601075304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210601075304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210601075304 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 1r27
+242U14*Put 13|12s17 39s17
+263U14*Put_Line 13|7s17 20s17 22s25 31s17 41s17
+X 12 pkg_cuenta.ads
+1K9*pkg_cuenta 19l5 19e15 13|2b14 49l5 49t15
+2W9*Cuenta 2d16 2d39 3r28
+2i16 Cuenta_Saldo{integer} 5r27
+2i39 Cuenta_id{integer} 5r50
+3P9*Cuenta_P(2W9) 8r33 13|36r34
+4E9*TState 4e35 13r17
+4n20*LIBRE{4E9} 13r27 13|15r83 24r27 27r81 32r27 36r98
+4n27*OCUPADO{4E9} 13|17r27 29r27
+5W19*Cuenta 5d27 5d50 13E9 17l8 17e14 13|4b24 48l13 48t19
+5i27 Cuenta_Saldo{integer} 14r26
+5i50 Cuenta_id{integer} 15r23
+6Y15 ExtraerDinero 6>29 6>51 13|15b15 25l13 25t26
+6i29 Extraccion{integer} 13|18r20 19r34 20r178 22r207
+6i51 idCliente{integer} 13|20r53 22r61
+7Y15 IngresarDinero 7>30 7>49 13|27b15 33l13 33t27 43s28
+7i30 Ingreso{integer} 13|30r34 31r171
+7i49 idCliente{integer} 13|31r53
+8Y15 Transferencia 8>29 8>43 8>65 13|36b15 45l13 45t26
+8p29 C2{3P9} 13|40r17 43r25
+8i43 Transferido{integer} 13|38r30 41r56 42r42 43r43
+8i65 idCliente{integer} 13|39r48 43r56
+9U19 consultaSaldo 9>33 13|5b19 8l13 8t26
+9i33 idCliente{integer} 13|5b33 7r53
+10U19 consultaId 13|10b19 13l13 13t23 40s20
+13e9 Estado{4E9} 13|15r76 17r17 24r17 27r74 29r17 32r17 36r91
+14i9 Saldo{integer} 13|7r152 18r34 19r17 19r26 20r216 30r17 30r26 31r205
+. 38r21 42r25 42r34
+15i9 id{integer} 13|7r119 12r35 20r132 22r161 31r128 39r153
+X 13 pkg_cuenta.adb
+15i29 Extraccion{integer}
+15i51 idCliente{integer}
+27i30 Ingreso{integer}
+27i49 idCliente{integer}
+36p30 C2{12|3P9}
+36i44 Transferido{integer}
+36i66 idCliente{integer}
+X 14 system.ads
+67M9*Address
+X 27 s-memory.ads
+53V13*Alloc{14|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{14|67M9} 105i<c,__gnat_realloc>22
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 38 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
